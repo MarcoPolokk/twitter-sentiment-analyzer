@@ -27,6 +27,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <state key="normal" title="Predict!"/>
+                                <connections>
+                                    <action selector="predictPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IJk-eW-Phf"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Emot-icon" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IbT-hQ-cb9">
                                 <rect key="frame" x="122" y="233" width="170" height="106"/>
@@ -40,7 +43,6 @@
                         <color key="backgroundColor" systemColor="systemTealColor"/>
                     </view>
                     <connections>
-                        <outlet property="predictionButton" destination="nSq-sh-bXY" id="xIe-zc-Ahi"/>
                         <outlet property="sentimentLabel" destination="IbT-hQ-cb9" id="WrE-Vp-7UV"/>
                         <outlet property="textField" destination="o6U-Fl-hWV" id="koo-35-b77"/>
                     </connections>

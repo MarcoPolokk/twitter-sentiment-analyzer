@@ -6,19 +6,20 @@
 //
 
 import UIKit
+import SwifteriOS
 
 class ViewController: UIViewController {
     
     @IBOutlet weak var sentimentLabel: UILabel!
     @IBOutlet weak var textField: UITextField!
     
-    @IBOutlet weak var predictionButton: UIButton!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func predictPressed(_ sender: UIButton) {
+    }
+    
 }
 
