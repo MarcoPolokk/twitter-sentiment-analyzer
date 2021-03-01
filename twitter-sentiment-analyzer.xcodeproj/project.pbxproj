@@ -15,6 +15,7 @@
 		5F02CEA125E85155000672A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F02CE9F25E85155000672A1 /* LaunchScreen.storyboard */; };
 		5F637FBE25EC1690001BBDBA /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F637FB025EC1615001BBDBA /* SwifteriOS.framework */; };
 		5F637FBF25EC1690001BBDBA /* SwifteriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5F637FB025EC1615001BBDBA /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5FF0C4AE25ED35A8001DC72A /* Secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5FF0C4AD25ED35A8001DC72A /* Secrets.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		5F02CEA025E85155000672A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F02CEA225E85155000672A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F637FA725EC1614001BBDBA /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = Swifter/Swifter.xcodeproj; sourceTree = "<group>"; };
+		5FF0C4AD25ED35A8001DC72A /* Secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Secrets.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				5F02CE9425E85151000672A1 /* AppDelegate.swift */,
 				5F02CE9625E85151000672A1 /* SceneDelegate.swift */,
 				5F02CE9825E85151000672A1 /* ViewController.swift */,
+				5FF0C4AD25ED35A8001DC72A /* Secrets.plist */,
 				5F02CE9A25E85151000672A1 /* Main.storyboard */,
 				5F02CE9D25E85155000672A1 /* Assets.xcassets */,
 				5F02CE9F25E85155000672A1 /* LaunchScreen.storyboard */,
@@ -246,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FF0C4AE25ED35A8001DC72A /* Secrets.plist in Resources */,
 				5F02CEA125E85155000672A1 /* LaunchScreen.storyboard in Resources */,
 				5F02CE9E25E85155000672A1 /* Assets.xcassets in Resources */,
 				5F02CE9C25E85151000672A1 /* Main.storyboard in Resources */,
