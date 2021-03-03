@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -124,14 +124,14 @@
 		5F02CE9325E85151000672A1 /* twitter-sentiment-analyzer */ = {
 			isa = PBXGroup;
 			children = (
-				5F66838125EE7CE200B3B390 /* TweetSentimentClassifier.mlmodel */,
 				5F02CE9425E85151000672A1 /* AppDelegate.swift */,
 				5F02CE9625E85151000672A1 /* SceneDelegate.swift */,
-				5F02CE9825E85151000672A1 /* ViewController.swift */,
-				5FF0C4AD25ED35A8001DC72A /* Secrets.plist */,
-				5F02CE9A25E85151000672A1 /* Main.storyboard */,
+				5F80454025F01FB30015A902 /* Model */,
+				5F80453F25F01FAB0015A902 /* View */,
+				5F80453E25F01FA20015A902 /* Controller */,
 				5F02CE9D25E85155000672A1 /* Assets.xcassets */,
 				5F02CE9F25E85155000672A1 /* LaunchScreen.storyboard */,
+				5FF0C4AD25ED35A8001DC72A /* Secrets.plist */,
 				5F02CEA225E85155000672A1 /* Info.plist */,
 			);
 			path = "twitter-sentiment-analyzer";
@@ -157,13 +157,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5F80453E25F01FA20015A902 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5F02CE9825E85151000672A1 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5F80453F25F01FAB0015A902 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5F02CE9A25E85151000672A1 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5F80454025F01FB30015A902 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5F66838125EE7CE200B3B390 /* TweetSentimentClassifier.mlmodel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		BD80D101F7FD891DD01DB255 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				9D4DC21877820FD4C7B82F1D /* Pods-twitter-sentiment-analyzer.debug.xcconfig */,
 				2186C140B0308E1AD5E449D6 /* Pods-twitter-sentiment-analyzer.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
