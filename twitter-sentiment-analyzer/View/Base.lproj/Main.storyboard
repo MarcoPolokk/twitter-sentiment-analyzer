@@ -30,7 +30,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🤔" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IbT-hQ-cb9">
-                                <rect key="frame" x="109" y="199" width="196" height="215"/>
+                                <rect key="frame" x="109" y="196.5" width="196" height="215"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="180"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -41,18 +41,26 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check the mood of any @ or # from Twitter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Y5-1I-cRh">
+                                <rect key="frame" x="30.5" y="97" width="353.5" height="23.5"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.54117647058823526" green="0.76862745098039209" blue="0.81568627450980391" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="IbT-hQ-cb9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="26S-p1-BxF"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nSq-sh-bXY" secondAttribute="bottom" constant="17" id="3Pp-fC-BBd"/>
-                            <constraint firstItem="IbT-hQ-cb9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="155" id="4qa-xM-oBU"/>
                             <constraint firstItem="nSq-sh-bXY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="107" id="9Kd-xe-6sl"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nSq-sh-bXY" secondAttribute="trailing" constant="107" id="Pef-js-Spk"/>
+                            <constraint firstItem="9Y5-1I-cRh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WEa-1o-pUK"/>
                             <constraint firstItem="nSq-sh-bXY" firstAttribute="top" secondItem="o6U-Fl-hWV" secondAttribute="bottom" constant="31" id="cJD-TA-6lS"/>
                             <constraint firstItem="nSq-sh-bXY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cpw-wX-AQc"/>
+                            <constraint firstItem="9Y5-1I-cRh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="53" id="j1h-FK-eUa"/>
                             <constraint firstItem="o6U-Fl-hWV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="oI1-79-kXD"/>
+                            <constraint firstItem="IbT-hQ-cb9" firstAttribute="top" secondItem="9Y5-1I-cRh" secondAttribute="bottom" constant="76" id="oxM-KP-BuP"/>
                             <constraint firstItem="o6U-Fl-hWV" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="yud-Ax-ZsU"/>
                         </constraints>
                     </view>

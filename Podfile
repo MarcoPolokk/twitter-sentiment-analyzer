@@ -7,5 +7,6 @@ target 'twitter-sentiment-analyzer' do
 
   # Pods for twitter-sentiment-analyzer
   pod 'SwiftyJSON'
+  pod 'IQKeyboardManagerSwift', '~> 6.5'
 
 end
