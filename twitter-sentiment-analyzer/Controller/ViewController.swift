@@ -88,22 +88,21 @@ class ViewController: UIViewController {
     
     func updateUI(by sentimentScore: Int) {
         
-        if sentimentScore > 16 {
+        if sentimentScore >= 16 {
             sentimentLabel.text = "😍"
             
-        } else if sentimentScore > 8 {
+        } else if sentimentScore > 8 && sentimentScore < 16 {
             sentimentLabel.text = "🙂"
             
-        } else if sentimentScore == 0  {
-            sentimentLabel.text = "😐"
-            
-        } else if sentimentScore < -8 {
+        } else if sentimentScore < -8 && sentimentScore > -16  {
             sentimentLabel.text = "🙁"
             
-        } else if sentimentScore < -16 {
+        } else if sentimentScore <= -16 {
             sentimentLabel.text = "😤"
+            
+        } else {
+            sentimentLabel.text = "😐"
         }
+        
     }
-//    git commit -m "Added IQKeyboardManager, code refactorization"
 }
-
